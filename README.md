@@ -32,8 +32,8 @@ Smoothing factors evaluated: **0.1, 0.3, 0.5, 1.0, 1.5, 1.8, 1.9, 2.0**.
 - F1 **0.84793**
 
 📌 Figure: Impact of smoothing factors on precision/recall/F1
-![Figure 1](<img width="893" height="537" alt="image" src="https://gi
-)
+
+![Figure 1](./images/exp-1.png)
 
 ---
 
@@ -47,7 +47,8 @@ Smoothing factors evaluated: **0.1 → 3.0**.
 - F1 **0.86445**
 
 📌 Figure: Smoothing factors vs precision/recall/F1 using raw text
-![Figure 2](assets/figure2.png)
+
+![Figure 2](./images/exp-2.png)
 
 ---
 
@@ -67,7 +68,8 @@ Comparison (Cleaned Rare Words vs Processed Text):
 | F1 Score | 0.8479 | 0.8478 |
 
 📌 Figure: Cleaned rare words vs processed text
-![Figure 3](assets/figure3.png)
+
+![Figure 3](./images/exp-3.png)
 
 ---
 
@@ -80,7 +82,8 @@ This experiment analyzes the relationship between **review length** and **sentim
 - There is **no clear length threshold** that cleanly separates positive vs negative, but **length may still help as a feature** in ambiguous cases.
 
 📌 Figure: Histogram of review lengths by sentiment
-![Figure 4](assets/figure4.png)
+
+![Figure 4](./images/exp-4.png)
 
 ---
 
@@ -89,6 +92,4 @@ This experiment analyzes the relationship between **review length** and **sentim
 - **Removing rare words** provides similar overall performance while reducing complexity and potentially improving efficiency.
 - **Review length** alone is not a reliable sentiment indicator, but trends suggest it could be a useful auxiliary feature.
 
----
 
-## Project Structure (suggested)
