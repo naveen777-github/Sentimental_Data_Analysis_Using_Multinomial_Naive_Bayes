@@ -1,10 +1,5 @@
 # Sentiment_Data_Analysis_Using_Multinomial_Naive_Bayes
 
-This repository contains experiments for **binary sentiment analysis** on a review dataset using a **Bag-of-Words (BoW)** representation with a **Multinomial Naive Bayes** classifier. The goal is to study how **text preprocessing choices** and **Laplace smoothing** affect performance, and to analyze the relationship between **review length** and sentiment.
-
-
----
-
 ## Overview
 
 ### Techniques Used
